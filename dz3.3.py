@@ -13,6 +13,19 @@ for word in sentence:
 print(sentence[k])
 
 
+#решение с несколькими наибольшими словами
+
+sentence = input().split()
+ls = []
+lis = []
+for word in sentence:
+    ls.append(len(word))
+for w in sentence:
+    if max(ls) == len(w):
+        lis.append(w)
+
+print(*lis)
+
 
 
 
