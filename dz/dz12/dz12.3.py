@@ -16,7 +16,7 @@
 
 s = '1-2, 4-4, 3-6'.split(',')
 s = ''.join(s).replace('-', '').split()
-lis, final = [], []
+lis = []
 
 for i in s:
     i = tuple(i)
